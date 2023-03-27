@@ -6,7 +6,7 @@ const ejs = require("ejs");
 const _ = require("lodash");
 // const res = require("express/lib/response");
 const mongoose = require("mongoose");
-// mongoose.set("strictQuery", false);
+ mongoose.set("strictQuery", true);
 mongoose.connect(
 "mongodb+srv://lakshayrastogi20154:<test123>@cluster0.crvceqk.mongodb.net/blogDB"
 );
