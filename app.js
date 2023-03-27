@@ -8,7 +8,7 @@ const _ = require("lodash");
 const mongoose = require("mongoose");
 // mongoose.set("strictQuery", false);
 mongoose.connect(
-  "mongodb+srv://admin-shashank:shashank123@cluster0.pcdnrmx.mongodb.net/blogDB"
+ mongodb+srv://lakshayrastogi20154:<test123>@cluster0.crvceqk.mongodb.net/test
 );
 
 const Post = mongoose.model("post", {
